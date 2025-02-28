@@ -1,0 +1,40 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+header {
+    background-color: red;
+    display: flex;
+    flex-wrap: wrap;
+    flex-grow: 0;
+    height: 100px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+main{
+    background-color: green;
+    display: flex;
+    flex-wrap: wrap;
+    flex-grow: 8;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+
+}
+footer{
+    background-color: blueviolet;
+    display: flex;
+    flex-wrap: wrap;
+    flex-grow: 1;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+
+}

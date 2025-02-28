@@ -1,0 +1,95 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+nav{
+    display: flex;
+    position: relative;
+    float: left;
+    width: 15%;
+    height: 100vh;
+    background-color: aqua;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+nav>h1{
+    display: flex;
+    /* padding: 10px 40px 10px 40px; */
+    height: 80px;
+    width: 100px;
+    margin: 10px;
+    background-color: black;
+    color: white;
+    justify-content: center;
+    align-items: center;
+}
+div.container{
+    display: flex;
+    flex-direction: column;
+    
+}
+div>header{
+    background-color: red;
+    height: 5vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+div>main{   
+    display: flex;
+    background-color: antiquewhite;
+    width: 100%;
+    height: 90vh;
+    
+}
+main>article{
+    display: flex;
+    width: 90%;
+    background-color: chartreuse;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+article > h2{
+    display: flex;
+    background-color: black;
+    color: white;
+    height: 100px;
+    width: 200px;
+    justify-content: center;
+    align-items: center;
+}
+article>h2.bloco-maior{
+    position: relative;
+
+}
+main>aside{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 10%;
+    background-color:violet;
+    gap: 20px;
+}
+aside>h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid red;
+    background-color: red;
+    height: 80px;
+    width: 100px;
+}
+
+div>footer{
+    display: flex;
+    height: 5vh;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
